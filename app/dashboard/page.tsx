@@ -1,6 +1,6 @@
-import { DashboardHeader } from "@/components/dashboard/dashboard-header"
-import { DashboardSidebar } from "@/components/dashboard/dashboard-sidebar"
-import { DashboardContent } from "@/components/dashboard/dashboard-content"
+import { DashboardHeader } from "@/components/dashboard-header"
+import { DashboardSidebar } from "@/components/dashboard-sidebar"
+import { DashboardContent } from "@/components/dashboard-content"
 
 export default function DashboardPage() {
   return (
