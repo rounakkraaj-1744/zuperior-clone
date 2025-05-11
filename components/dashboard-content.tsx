@@ -21,6 +21,7 @@ export function DashboardContent() {
           </Tabs>
         </div>
       </div>
+      <Tabs>
       <TabsContent value="overview" className="space-y-4">
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3 }}>
@@ -132,6 +133,7 @@ export function DashboardContent() {
           </motion.div>
         </div>
       </TabsContent>
+      </Tabs>
     </div>
   )
 }
